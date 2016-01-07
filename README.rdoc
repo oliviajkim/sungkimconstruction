@@ -1,28 +1,17 @@
-== README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+##Sung Kim Construction
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+###Project Details
+- What are we building?
+- Who are we building for?
+- What features do we need to have?
+
+###User Narratives
+- As a user, I want to see information about the company.
+- As a user, I want to see examples of past work the company has done. 
+- As a user, I want to be able to contact the company easily to set up an appointment or to ask questions about work I would like to have done. 
+
+###Wireframes
+(img)
+
+###
