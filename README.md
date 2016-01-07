@@ -1,10 +1,8 @@
 ##Sung Kim Construction
 
 
-###Project Details
-- What are we building?
-- Who are we building for?
-- What features do we need to have?
+###About
+This is a website for a local Bay Area business called Sung Kim Construction, who approached me about designing a new website for them. The business specializes in renovation
 
 ###User Narratives
 - As a user, I want to see information about the company.

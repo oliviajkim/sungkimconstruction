@@ -11,3 +11,6 @@
 /log/*
 !/log/.keep
 /tmp
+.env
+/config/initializers/gibbon.rb
+/config/initializers/setup_mail.rb
