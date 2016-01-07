@@ -12,6 +12,6 @@
 - As a user, I want to be able to contact the company easily to set up an appointment or to ask questions about work I would like to have done. 
 
 ###Wireframes
-(img)
+![Sung Kim Construction wireframe](http://i.imgur.com/acbv1GC.png)
 
 ###
