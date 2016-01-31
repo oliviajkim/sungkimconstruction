@@ -23,18 +23,34 @@
 
 <body>
 <header id="main_navigation" class="clearfix">
-	<a href="#" class="name">Sung M. Kim Construction, Inc.</a><br>
+	<a href="/" class="name">Sung M. Kim Construction, Inc.</a><br>
 	<nav>
-		<a href="#">About</a>
-		<a href="#">Services</a>
-		<a href="#">Projects</a>
-		<a href="#">Quality</a>
-		<a href="#">Testimonials</a>
-		<a href="#">Contact</a>
+		<!-- <a href="#">About</a> -->
+    <a href="#main_services">About</a>
+		<a href="#projects">Projects</a>
+		<a href="#contact">Contact</a>
 	</nav>
 </header>
 
 <%= yield %>
+
+<footer class="clearfix" id="contact">
+  <div class="wrapper">
+    <h4>Contact</h4>
+    <hr>
+      <h3>If you have a project you'd like to discuss, please contact us:</h3>
+    <div class="grid" id="contact_info">
+      <div class="column-1">
+        <h5>Telephone</h5>
+        <h5>+1 408 489 4499</h5>
+      </div>
+      <div class="column-2">
+        <h5>Email</h5>
+        <h5>sjsungkim@gmail.com</h5>
+      </div>
+    </div>
+  </div>
+</footer>
 
 </body>
 </html>

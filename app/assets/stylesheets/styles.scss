@@ -17,10 +17,6 @@ body {
 	font-family: 'Raleway', sans-serif;
 }
 
-// h2, h3 {
-// 	color: $highlight;
-// }
-
 h1, h2, h3, h4, h5, h6, ul, li {
 	color: $highlight;
 }
@@ -30,7 +26,7 @@ h1 {
 }
 
 h2 {
-	font-size: 2rem;
+	font-size: 3rem;
 }
 
 h3 {
@@ -38,11 +34,11 @@ h3 {
 }
 
 h4 {
-	font-size: 1.375rem;
+	font-size: 2rem;
 }
 
 h5 {
-	font-size: 1.25rem;
+	font-size: 1.75rem;
 }
 
 h6 {
@@ -75,7 +71,8 @@ p, ul, ol {
 }
 
 #main_navigation {
-	padding: 2.5em 5%;
+	height: 10vh;
+	padding: 1.5em 5%;
 	border-bottom: 1px solid $border;
 	background-color: $highlight;
 
@@ -93,7 +90,7 @@ p, ul, ol {
 	}
 	nav {
 		float: right;
-		padding-bottom: .4rem; 
+		padding-bottom: .6rem; 
 		a {
 			color: $light;
 			text-decoration: none;
@@ -107,16 +104,56 @@ p, ul, ol {
   display: table;
   width: 100%;
   border-spacing:.5em;
+  margin-bottom: 50px;
   .col{
     padding:1em;
     width:25%;
     display:table-cell;
     // border:#f0f0f0 1px solid;
   }
+  .col-1 {
+  	width: 50%;
+  	display: table-cell;
+  	padding: 1em;
+  }
+  .col-2 {
+  	width: 20%;
+  	display: table-cell;
+  	padding: 1em;
+  }
+  .col-3 {
+  	width: 30%;
+  	display: table-cell;
+  	padding: 1em;
+  	ul {
+  		padding-left: 0px;
+  	}
+  	li {
+  		color: white;
+  		list-style-type: none;
+  	}
+  }
+  .icon {
+  	height: 60px;
+  }
+  h4 {
+  	color: white;
+  	margin-top: 60px;
+  }
+  hr {
+	width: 5em;
+	margin-left: 0 !important;
+	padding-bottom: 30px;
+	display: block;
+	height: 2px;
+	border: 0;
+	border-top: 2px solid white;
+  }
 }
 
 .welcome {
 	text-align: center;
+	height: 87vh;
 	hr {
 		width: 5em;
 		display: block;
@@ -124,18 +161,84 @@ p, ul, ol {
 		border: 0;
 		border-top: 2px solid $highlight;
 	}
+	h2 {
+		padding-top: 60px;
+	}
+	#intro, h4 {
+		padding-top: 30px;
+	}
+}
+
+#main_services {
+	background-color: $dark;
+	height: 100vh;
+	p {
+		color: white;
+	}
 }
 
 
+#testimonials {
+	h4 {
+		color: $highlight;
+		margin-top: 60px;
+	}
+	hr {
+	width: 5em;
+	margin-left: 0 !important;
+	padding-bottom: 30px;
+	display: block;
+	height: 2px;
+	border: 0;
+	border-top: 2px solid $highlight;
+  }
+}
 
+#contact {
+	background-color: $light;
+	h3 {
+		text-align: center;
+		color: white;
+		margin-top: none;
+	}
+	h4 {
+		color: white;
+		margin-top: 60px;
+	}
+	h5 {
+		color: white;
+		margin-top: 0px;
+	}
+	hr {
+		width: 5em;
+		margin-left: 0 !important;
+		padding-bottom: 30px;
+		display: block;
+		height: 2px;
+		border: 0;
+		border-top: 2px solid white;
+  }
+}
 
+#contact_info {
+	display: table;
+	width: 100%;
+	border-spacing:.5em;
+	margin-bottom: 50px;
+	.column-1{
+	  padding:1em;
+	  width: 50%;
+	  text-align: right;
+	  display:table-cell;
+	}
+	.column-2 {
+		padding:1em;
+		width: 50%;
+		text-align: left;
+		display:table-cell;
+	}
 
-
-
-
-
-
-
+}
 
 
 
