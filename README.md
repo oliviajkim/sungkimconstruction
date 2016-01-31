@@ -2,7 +2,7 @@
 
 
 ###About
-This is a website for a local Bay Area business called Sung Kim Construction, who approached me about designing a new website for them. The business specializes in renovation
+This is a website for a local Bay Area business called Sung Kim Construction, who approached me about designing a new website for them. The business specializes in renovation, tenant improvements, restaurant and hotel remodeling, and design build services.
 
 ###User Narratives
 - As a user, I want to see information about the company.
