@@ -226,6 +226,22 @@ p, ul, ol {
   }
 }
 
+#projects {
+	h4 {
+		color: $highlight;
+		margin-top: 60px;
+	}
+	hr {
+		width: 5em;
+		margin-left: 0 !important;
+		padding-bottom: 30px;
+		display: block;
+		height: 2px;
+		border: 0;
+		border-top: 2px solid $highlight;
+  }
+}
+
 #contact_info {
 	display: table;
 	width: 100%;
