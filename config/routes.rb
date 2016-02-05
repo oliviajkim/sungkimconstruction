@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
+  get 'static_pages/projects'
+
   root 'welcome#new'
 
-  get ':action' => 'static#:action'
 end
