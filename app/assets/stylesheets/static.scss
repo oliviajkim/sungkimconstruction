@@ -1,0 +1,150 @@
+// Place all the styles related to the static controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+/*font-family: 'Roboto', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+
+
+$dark: #708199;
+$light: #b8c6d0;
+$highlight: #138ad3;
+$border: #E9E9E9;
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, ul, li {
+	color: #138ad3;
+}
+
+/*h1 {
+	font-size: 2.5rem;
+}*/
+
+h2 {
+	font-size: 3rem;
+}
+
+h3 {
+	font-size: 1.75rem;
+}
+
+h4 {
+	font-size: 2rem;
+}
+
+h5 {
+	font-size: 1.75rem;
+}
+
+/*h6 {
+	font-size: 1rem;
+}
+*/
+p, li {
+	/*font-size: 1.1rem;*/
+	line-height: 1.75;
+	color: $dark;
+}
+
+p, ul, ol {
+	margin: 0 0 1.6em 0;
+}
+
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear:both;
+}
+
+#main_navigation {
+	height: 10vh;
+	padding: 1.5em 5%;
+	border-bottom: 1px solid $border;
+	background-color: #138ad3;
+}
+.name {
+		font-weight: 700;
+		font-size: .8em;
+		letter-spacing: 4px;
+		text-transform: uppercase;
+		text-decoration: none;
+		padding: 0.75em 1rem;
+		color: #b8c6d0;
+		border: 1px solid #b8c6d0;
+		float:left;
+		margin-top: .3rem;
+	}
+
+
+.welcome {
+	text-align: center;
+	height: 87vh;
+	
+	#intro, h4 {
+		padding-top: 30px;
+	}
+}
+
+.welcome h2 {
+		padding-top: 60px;
+	}
+
+hr {
+		width: 5em;
+		display: block;
+		height: 2px;
+		border: 0;
+		border-top: 2px solid #138ad3;
+	}
+
+#contact hr {
+		width: 5em;
+		margin-left: 0 !important;
+		padding-bottom: 30px;
+		display: block;
+		height: 2px;
+		border: 0;
+		border-top: 2px solid #138ad3;
+  }
+
+.column-1{
+	padding:1em;
+	width: 50%;
+	text-align: right;
+	display:table-cell;
+}
+.column-2 {
+	padding:1em;
+	width: 50%;
+	text-align: left;
+	display:table-cell;
+}
+
+
+
+
+
+
+
+
+
+
+
+

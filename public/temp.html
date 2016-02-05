@@ -6,51 +6,40 @@
   <!-- Google Fonts -->
   <link href='https://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,500italic,700,700italic' rel='stylesheet' type='text/css'>
+  <!-- <link rel="stylesheet" href="stylesheets/styles.scss" type="text/css"> -->
 
   <!-- Bootstrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
-
+  <link rel="stylesheet" type="text/type" href="stylesheets/static.scss">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
-
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
 </head>
 
 <body>
-<header id="main_navigation" class="clearfix">
-	<a href="/" class="name">Sung M. Kim Construction, Inc.</a><br>
-	<nav>
-		<!-- <a href="#">About</a> -->
-    <a href="#main_services">About</a>
-		<a href="/temp.html">Projects</a>
-		<a href="#contact">Contact</a>
-	</nav>
-</header>
+  <header id="main_navigation" class="clearfix">
+  	<a href="/" class="name">Sung M. Kim Construction, Inc.</a><br>
+  </header>
 
-<%= yield %>
 
-<footer class="clearfix" id="contact">
-  <div class="wrapper">
-    <h4>Contact</h4>
-    <hr>
-      <h3>If you have a project you'd like to discuss, please contact us:</h3>
-    <div class="grid" id="contact_info">
-      <div class="column-1">
-        <h5>Telephone</h5>
-        <h5>+1 408 489 4499</h5>
-      </div>
-      <div class="column-2">
-        <h5>Email</h5>
-        <h5>sjsungkim@gmail.com</h5>
-      </div>
+  <div class="wrapper clearfix">
+    <div class="welcome">
+      <h2 id="welcome">CURRENTLY UNDER CONSTRUCTION</h2>
+      <hr>
+
+
+      <br><br>
+      <h3>In the meantime, if you have a project you'd like to discuss, please contact us:</h3>
+      <br><br>
+      <h5>Telephone</h5>
+      <h5>+1 408 489 4499</h5>
+      <br>
+      <h5>Email</h5>
+      <a href="mailto:sjsungkim@gmail.com"><h5>sjsungkim@gmail.com</h5></a>
     </div>
   </div>
-</footer>
 
 </body>
 </html>
