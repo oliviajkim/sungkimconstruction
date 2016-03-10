@@ -3,9 +3,11 @@
 <head>
   <title>Sung M. Kim Construction, Inc.</title>
 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <!-- Google Fonts -->
   <link href='https://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,500italic,700,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
 
   <!-- Bootstrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -14,6 +16,7 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
@@ -22,35 +25,64 @@
 </head>
 
 <body>
-<header id="main_navigation" class="clearfix">
-	<a href="/" class="name">Sung M. Kim Construction, Inc.</a><br>
-	<nav>
-		<!-- <a href="#">About</a> -->
-    <a href="#main_services">About</a>
-		<a href="/static_pages/projects">Projects</a>
-		<a href="#contact">Contact</a>
-	</nav>
-</header>
+
+<!-- 
+HEADER
+========================= -->
+
+<nav class="navbar">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <!-- collapse menu button -->
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <!-- brand logo -->
+      <a class="navbar-brand" href="/">
+        <img alt="Brand" src="/assets/Logo1.png" id="logo">
+      </a>
+    </div>
+    <!-- actual nav links -->
+    <div class="collapse navbar-collapse pull-right" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="/">Home</a></li>
+        <li><a href="#main_services">About</a></li>
+        <li><a href="/projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
 
 <%= yield %>
 
-<footer class="clearfix" id="contact">
-  <div class="wrapper">
-    <h4>Contact</h4>
-    <hr>
-      <h3>If you have a project you'd like to discuss, please contact us:</h3>
-    <div class="grid" id="contact_info">
-      <div class="column-1">
-        <h5>Telephone</h5>
-        <h5>+1 408 489 4499</h5>
+
+<!-- 
+FOOTER
+========================= -->
+
+<footer>
+   <div class="row">
+
+      <div class="twelve columns">
+         <ul class="social-links">
+            <li><a href="https://www.linkedin.com/in/oliviajkim"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="https://www.instagram.com/oliviaj.kim/"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="http://www.behance.net/oliviajkim"><i class="fa fa-behance"></i></a></li>
+            <li><a href="https://github.com/oliviajkim"><i class="fa fa-github"></i></a></li>
+         </ul>
+
+         <ul class="copyright">
+            <li>&copy; Copyright 2016</li>   
+         </ul>
       </div>
-      <div class="column-2">
-        <h5>Email</h5>
-        <h5>sjsungkim@gmail.com</h5>
-      </div>
-    </div>
-  </div>
-</footer>
+
+   </div>
+</footer> <!-- Footer End-->
 
 </body>
 </html>
