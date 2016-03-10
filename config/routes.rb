@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
-  get 'static_pages/projects'
 
-  root 'welcome#new'
+  root to: 'welcome#new'
 
+  get '/projects', to: 'static_pages#projects'
+  
 end
